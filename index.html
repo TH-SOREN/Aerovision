@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Aerovision offers cutting-edge aerial photogrammetry solutions for spatial monitoring, modeling, and planning using AI, multispectral sensors, and 3D analytics.">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Aerovision Team">
+
+        <meta property="og:title" content="Aerovision - Aerial Photogrammetry Solutions">
+        <meta property="og:description" content="Discover Aerovision's innovative solutions for aerial photogrammetry, spatial monitoring, and planning with AI and multispectral sensors.">
+        <meta property="og:type" content="website">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Aerovision - Aerial Photogrammetry Solutions">
+        <meta name="twitter:description" content="Discover Aerovision's innovative solutions for aerial photogrammetry, spatial monitoring, and planning with AI and multispectral sensors.">
+
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <title>Aerovision | Aerial Photogrammetry & Spatial Monitoring Solutions</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <div id="theme-toggle">Dark</div>
+    <div class="loader">
+        <div class="spinner"></div>
+    </div>
+    <header>
+        <div class="container">
+            <span class="logo-text">Aerovision</span>
+            <nav>
+                <div class="hamburger"><span></span><span></span><span></span></div>
+                <div class="overlay" id="overlay"></div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#industries">Industries</a></li>
+                    <li><a href="#technologies">Technologies</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="theme-toggle-mobile" style="display: none;"><div id="theme-toggle-mobile">Dark</div></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero" id="home">
+            <h1 class="typing">Fly Longer,See Sharper</h1>
+            <a href="#services" class="cta">Explore Now</a>
+        </div>
+    </header>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Aerovision is a deep-tech startup in the field of aerial photogrammetry, offering cutting-edge solutions for spatial monitoring, modeling, and planning. By combining artificial intelligence, multispectral sensors, and 3D data analytics, we deliver innovative, scalable tools for clients across sectors. Established in 2018 in Iran, Aerovision is now preparing to expand into the Canadian market. Our focus is on sustainable development, intelligent resource management, and providing high-precision data to support strategic decision-making at scale. Our team of engineers, data scientists, and photogrammetry experts is united by a mission: to empower industries and governments through smart, scalable, and ethical geospatial solutions. We are currently finalizing patent registrations, establishing a Canadian entity in Toronto, and preparing to enter the North American market in 2026.</p>
+        </div>
+    </section>
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Customized Aerial Photogrammetry Projects</h3>
+                    <p>We deliver tailored solutions for each client’s needs, including aerial imaging, cloud-based data processing, and the generation of engineering outputs such as Digital Surface Models (DSM/DTM), 3D maps, and Smart City models.</p>
+                    <button onclick="openModal('Customized Aerial Photogrammetry Projects', 'We deliver tailored solutions for each client’s needs, including aerial imaging, cloud-based data processing, and the generation of engineering outputs such as Digital Surface Models (DSM/DTM), 3D maps, and Smart City models.')">Learn More</button>
+                </div>
+                <div class="service-card">
+                    <h3>Multispectral and LiDAR-Based Analysis</h3>
+                    <p>Using high-precision LiDAR and multispectral sensors, we provide insights into vegetation cover, soil moisture, mineral reserves, and various geological and environmental parameters.</p>
+                    <button onclick="openModal('Multispectral and LiDAR-Based Analysis', 'Using high-precision LiDAR and multispectral sensors, we provide insights into vegetation cover, soil moisture, mineral reserves, and various geological and environmental parameters.')">Learn More</button>
+                </div>
+                <div class="service-card">
+                    <h3>Advanced Technology Services (MAF Technology Services)</h3>
+                    <p>We develop next-generation solutions in AI-powered image analysis for object detection, environmental change monitoring, and land surface classification, machine learning-based flight path optimization, and intelligent mission management considering weather, environmental, and safety conditions.</p>
+                    <button onclick="openModal('Advanced Technology Services (MAF Technology Services)', 'We develop next-generation solutions in AI-powered image analysis for object detection, environmental change monitoring, and land surface classification, machine learning-based flight path optimization, and intelligent mission management considering weather, environmental, and safety conditions.')">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="industries" class="section">
+        <div class="container">
+            <h2>Industries We Serve</h2>
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <h3>Urban Planning & Smart City Development</h3>
+                    <p>Includes Digital Twin creation, urban density analysis, and infrastructure design for sustainable city development.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Mining & Natural Resources</h3>
+                    <p>Solutions for volume assessment, environmental monitoring, and surface deformation tracking in active mining zones.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Precision Agriculture & Natural Resources</h3>
+                    <p>Use of multispectral imagery and NDVI analysis to evaluate crop health, detect disease, and optimize irrigation.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Forest Resource Management</h3>
+                    <p>Tree volume estimation and vegetation classification maps using LiDAR imaging for improved forestry planning.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Infrastructure & Civil Engineering</h3>
+                    <p>Project monitoring and documentation through accurate surface change detection and high-resolution mapping.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Disaster & Crisis Management</h3>
+                    <p>Post-disaster damage assessments following earthquakes, floods, or wildfires to accelerate emergency response and recovery efforts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="technologies" class="section">
+        <div class="container">
+            <h2>Innovative Technologies</h2>
+            <div class="tech-tabs">
+                <div class="tech-tab active" onclick="openTab(event, 'flight-path')">Flexible Flight Path</div>
+                <div class="tech-tab" onclick="openTab(event, 'imaging')">Adjustable Imaging</div>
+                <div class="tech-tab" onclick="openTab(event, 'geotagging')">Real-Time Geotagging</div>
+                <div class="tech-tab" onclick="openTab(event, 'battery')">Continuous Imaging</div>
+            </div>
+            <div id="flight-path" class="tech-content active">
+                <p>Our proprietary aerial imaging software enables fully adaptable flight path planning based on project needs, environmental conditions, and real-time updates. Benefits include: Optimized flight time and lower energy usage, real-time weather adaptation (wind, clouds, rain), precision data capture over critical areas, dynamic adjustments based on data type (RGB, multispectral, LiDAR), faster operations and reduced costs, higher flexibility for complex or changing sites, enhanced safety through obstacle-aware routing.</p>
+            </div>
+            <div id="imaging" class="tech-content">
+                <p>Our system supports various cameras and lenses for custom data capture: Real-time control over exposure, shutter speed, ISO, and altitude, better image quality under variable lighting, higher modeling precision through optimized angles, seamless support for multispectral and LiDAR sensors, time and cost efficiency for large-scale missions.</p>
+            </div>
+            <div id="geotagging" class="tech-content">
+                <p>Using dual-frequency GPS (including L5 band), our system geotags each image live: Instant geospatial accuracy, faster data processing and visualization, effective real-time project tracking, seamless team coordination and location-based workflows, valuable for disaster response and 3D reconstruction.</p>
+            </div>
+            <div id="battery" class="tech-content">
+                <p>Thanks to external battery integration, our system can capture uninterrupted data for long durations: Ideal for large-scale areas, reduced downtime from fewer takeoffs/landings, better image consistency and operational efficiency, critical in countries like Canada where sunny days are rare.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Highlighted Projects</h2>
+            <div class="video-container">
+                <video controls>
+                    <source src="images/video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="gallery">
+                <div class="gallery-item"><img src="images/project1.jpg" alt="Aerovision hardware"><p>Aerovision hardware</p></div>
+                <div class="gallery-item"><img src="images/project2.jpg" alt="aerovision hardware"><p>aerovision hardware</p></div>
+                <div class="gallery-item"><img src="images/project3.jpg" alt="TYSM"><p>TYSM</p></div>
+                <div class="gallery-item"><img src="images/project4.jpg" alt="operation"><p>operation</p></div>
+                <div class="gallery-item"><img src="images/project5.jpg" alt="sample of platform"><p>sample of platform</p></div>
+                <div class="gallery-item"><img src="images/project6.jpg" alt="sensors"><p>sensors</p></div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p>Shariati Street (Qeytarieh neighborhood), at the beginning of Sadr Bridge, Simiyari Alley, No. 2, Tehran, Iran</p>
+                    <p>Aerovision.su.2018@gmail.com</p>
+                    <p>+98 912 500 2361</p>
+                    <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com" target="_blank">LinkedIn</a></p>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/xovdvqyk" method="POST">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.623376672366!2d51.42872931520999!3d35.79198988016985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e06d5b1e7b2e5%3A0x5b7c2e2d5b5c5b5b!2sShariati%20St%2C%20Tehran%2C%20Iran!5e0!3m2!1sen!2sus!4v1698841234567!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com" target="_blank">LinkedIn</a></p>
+            <p>© 2025 Aerovision. All Rights Reserved.</p>
+            <p>Designed & Developed by <a href="https://github.com/TH-SOREN" target="_blank">Soren</a></p>
+        </div>
+    </footer>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">×</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+    <div id="notification" class="dynamic-island">
+        <span id="notification-text"></span>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
